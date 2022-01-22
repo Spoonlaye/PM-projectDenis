@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Интернет-магазин" company="ООО Turquoise" webLink="http://" view-date="2021-12-25" view-index="0" gantt-divider-location="300" resource-divider-location="418" version="3.1.3103" locale="ru_RU">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Название" width="167" order="0"/>
+        <field id="tpd4" name="Дата начала" width="65" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="64" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="269" order="0"/>
+        <field id="1" name="Стандартная роль" width="145" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Составление плана проекта" color="#8cb6ce" meeting="false" start="2022-01-10" duration="2" complete="100" thirdDate="2022-01-13" thirdDate-constraint="0" expand="true"/>
+        <task id="64" name="Выявить потребности заказчика" color="#8cb6ce" meeting="false" start="2022-01-10" duration="1" complete="100" thirdDate="2021-12-27" thirdDate-constraint="0" expand="true"/>
+        <task id="61" name="Интерпретация требований" meeting="false" start="2022-01-11" duration="1" complete="100" expand="true"/>
+        <task id="44" name="Разработка" color="#8cb6ce" shape="1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0" meeting="false" start="2022-01-12" duration="14" complete="16" thirdDate="2022-01-12" thirdDate-constraint="0" expand="true">
+            <task id="58" name="Контроль за ходом выполнения работ" color="#8cb6ce" meeting="false" start="2022-01-12" duration="14" complete="14" thirdDate="2022-01-12" thirdDate-constraint="0" expand="true"/>
+            <task id="63" name="Консультировать членов команды" color="#8cb6ce" meeting="false" start="2022-01-12" duration="14" complete="14" thirdDate="2022-01-12" thirdDate-constraint="0" expand="true"/>
+            <task id="52" name="Внешняя часть сайта" color="#8cb6ce" meeting="false" start="2022-01-12" duration="4" complete="50" thirdDate="2021-12-28" thirdDate-constraint="0" expand="true">
+                <task id="69" name="Создание шаблонов страниц" color="#8cb6ce" meeting="false" start="2022-01-12" duration="2" complete="100" thirdDate="2021-12-31" thirdDate-constraint="0" expand="true"/>
+                <task id="70" name="Разработка/настройка функционала сайта" color="#8cb6ce" meeting="false" start="2022-01-14" duration="2" complete="0" thirdDate="2022-01-14" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="72" name="Внутренняя часть сайта" color="#8cb6ce" meeting="false" start="2022-01-12" duration="14" complete="14" thirdDate="2022-01-12" thirdDate-constraint="0" expand="true">
+                <task id="45" name="Регистрация пользователей" meeting="false" start="2022-01-12" duration="2" complete="100" expand="true"/>
+                <task id="46" name="Просмотр товаров" meeting="false" start="2022-01-14" duration="2" complete="0" expand="true"/>
+                <task id="47" name="Корзина" meeting="false" start="2022-01-18" duration="2" complete="1" expand="true"/>
+                <task id="48" name="Оформление заказа" meeting="false" start="2022-01-20" duration="2" complete="0" expand="true"/>
+                <task id="49" name="Поиск товаров" meeting="false" start="2022-01-24" duration="2" complete="0" expand="true"/>
+                <task id="50" name="Фильтр товаров" meeting="false" start="2022-01-26" duration="2" complete="0" expand="true"/>
+                <task id="51" name="Обратная связь" meeting="false" start="2022-01-28" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="60" name="Составление документации" meeting="false" start="2022-01-12" duration="14" complete="15" expand="true"/>
+        </task>
+        <task id="34" name="Тестирование" meeting="false" start="2022-01-18" duration="10" complete="0" expand="true">
+            <task id="35" name="Исправление ошибок" color="#8cb6ce" meeting="false" start="2022-01-18" duration="10" complete="0" thirdDate="2022-01-10" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="36" name="Отчет о разработке" color="#8cb6ce" meeting="false" start="2022-02-01" duration="2" complete="0" thirdDate="2022-01-10" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Антропов Вадим" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Закомолдин Денис" function="1" contacts="" phone=""/>
+        <resource id="2" name="Бурлаков Игорь" function="2" contacts="" phone=""/>
+        <resource id="3" name="Арасланова Дарья" function="5" contacts="" phone=""/>
+        <resource id="4" name="Лукавский Евгений" function="3" contacts="" phone=""/>
+        <resource id="5" name="Бобошко Илья" function="4" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="58" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="36" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="61" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="63" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="64" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="51" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="45" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="50" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="46" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="47" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="49" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="48" resource-id="2" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="52" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="35" resource-id="3" function="2" responsible="false" load="100.0"/>
+        <allocation task-id="34" resource-id="4" function="3" responsible="false" load="100.0"/>
+        <allocation task-id="60" resource-id="5" function="4" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Аналитик"/>
+        <role id="2" name="Программист (бэкенд)"/>
+        <role id="3" name="Тестировщик"/>
+        <role id="4" name="Технический писатель"/>
+        <role id="5" name="Программист (фронтенд)"/>
+    </roles>
+</project>
